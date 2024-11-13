@@ -1,0 +1,1 @@
+senha_email = "ugkv dfti hxlv xphj"
