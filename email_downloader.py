@@ -1,9 +1,9 @@
 # IMPAP
 from imap_tools import MailBox, AND
-from senha_enviar_email import senha_email
+from config import EMAIL_ADDRESS, EMAIL_PASSWORD
 
-usuario = "mcanoff16@gmail.com"
-senha = senha_email
+usuario = EMAIL_ADDRESS
+senha = EMAIL_PASSWORD
 
 # configurar o servidor - meu_email será a caixa de entrada do e-mail?
 meu_email = MailBox("imap.gmail.com").login(usuario, senha, '[Gmail]/E-mails enviados')
